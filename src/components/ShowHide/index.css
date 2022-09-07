@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.bg1 {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.bg {
+  background-image: linear-gradient(
+    to right,
+    white,
+    #fa7257,
+    #fc63a7,
+    #dd1264,
+    black
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: black;
+}
+.heading {
+  font-family: 'roboto';
+  font-size: 50px;
+  font-weight: bold;
+  margin: 10px;
+  color: #ffffff;
+}
+.button {
+  background-color: #ffffff;
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  cursor: pointer;
+  height: 42px;
+  padding: 10px;
+}
+.names {
+  background-color: #fddddb;
+  padding: 5px;
+  height: 65px;
+  width: 220px;
+  text-align: center;
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 100px;
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+@media screen and (min-width: 678px) {
+  .display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+}
